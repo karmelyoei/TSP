@@ -62,8 +62,9 @@ class GeneticAlgorithm():
         """
         Euclidean distance between two nodes.
         """
-        coord_0, coord_1 = self.coords[node_0], self.coords[node_1]
-        return geopy.distance.geodesic(coord_0, coord_1).km
+        coord_0, coord_1 = (float(self.coords[node_0][0]),float(self.coords[node_0][1])), (float(self.coords[node_1][0]),float(self.coords[node_1][1]))
+        distance = geopy.distance.geodesic(coord_0, coord_1).km
+        return distance
 
     def fitness(self, chromosome):
         """
@@ -102,101 +103,32 @@ class GeneticAlgorithm():
         return parents
 
     # Ordered Crossover method OX
-    def crossover(self,mum, dad):
-        """Implements ordered crossover https://stackoverflow.com/questions/50489450/genetic-algorithm-ordered-crossover-in-python"""
-        size = len(mum)
+    def crossover(self, mum, dad):
+        """Implements ordered crossover"""
+        size = len(mum) - 1
         children = []
 
         # Choose random start/end position for crossover
-        child1, child2 = [-1] * size, [-1] * size
         start, end = sorted([random.randrange(size) for _ in range(2)])
 
-        # Replicate mum's sequence for child1, dad's sequence for child2
-        alice_inherited = []
-        bob_inherited = []
-        for i in range(start, end + 1):
-            child1[i] = mum[i]
-            child2[i] = dad[i]
-            alice_inherited.append(mum[i])
-            bob_inherited.append(dad[i])
+        # Identify the elements from mum's sequence which end up in alice,
+        # and from dad's which end up in bob
+        mumxo = set(mum[start:end + 1])
+        dadxo = set(dad[start:end + 1])
 
-        print(child1, child2)
-        # Fill the remaining position with the other parents' entries
-        current_dad_position, current_mum_position = 0, 0
+        # Take the other elements in their original order
+        alice = [i for i in dad if not i in mumxo]
+        bob = [i for i in mum if not i in dadxo]
 
-        fixed_pos = list(range(start, end + 1))
-        i = 0
-        while i < size:
-            if i in fixed_pos:
-                i += 1
-                continue
+        # Insert selected elements of mum's sequence for alice, dad's for bob
+        alice[start:start] = mum[start:end + 1]
+        bob[start:start] = dad[start:end + 1]
 
-            test_alice = child1[i]
-            if test_alice == -1:  # to be filled
-                dad_trait = dad[current_dad_position]
-                while dad_trait in alice_inherited:
-                    current_dad_position += 1
-                    dad_trait = dad[current_dad_position]
-                child1[i] = dad_trait
-                alice_inherited.append(dad_trait)
+        children.append(alice)
+        children.append(bob)
 
-            # repeat block for child2 and mom
-            i += 1
-
-        children.append(child1)
-        children.append(child2)
+        # Return twins
         return children
-
-    def crossover2(self,mum, dad):
-        """Implements ordered crossover https://stackoverflow.com/questions/50489450/genetic-algorithm-ordered-crossover-in-python"""
-        size = len(mum)
-        children = []
-        child1 = [-1] * size
-        child2 = [-1] * size
-        # Get two random numbers
-        start = random.randint(0,(size - 2))
-        end = random.randint(0,(size - 2))
-        # make sure that the start index less than the end
-        while start >= end or start != 0:
-            start = random.randint(0, (size - 2))
-            end = random.randint(0, (size - 2))
-        # Copy Elements inside the start and end points from parent1 to child1
-        child1[start:end+1] = mum[start:end+1]
-        child2[start:end+1] = dad[start:end+1]
-
-        # Fill the remaining position with the other parents' entries
-        current_dad_position, current_mum_position = 0, 0
-        fixed_pos = list(range(start, end + 1))
-        i = 0
-        while i < size:
-            if i in fixed_pos:
-                i += 1
-                continue
-
-            test_child1 = child1[i]
-            if test_child1 == -1:  # to be filled
-                dad_trait = dad[current_dad_position]
-                while dad_trait in child1:
-                    current_dad_position += 1
-                    dad_trait = dad[current_dad_position]
-                child1[i] = dad_trait
-
-            test_child2 = child2[i]
-            if test_child2 == -1:  # to be filled
-                mum_trait = mum[current_dad_position]
-                while mum_trait in child2:
-                    current_mum_position += 1
-                    mum_trait = mum[current_dad_position]
-                child2[i] = mum_trait
-
-            # repeat
-            i += 1
-
-            children.append(child1)
-            children.append(child2)
-            return children
-
-
 
     # Reverse Sequence Mutation
     def reverse_sequence_mutation(self, chromosome):
@@ -227,9 +159,9 @@ class GeneticAlgorithm():
             # Selecting the best parents in the population for mating
             parents = self.tournament_selection()
             for i, parent in enumerate(parents):
-                if i % 2 == 0:
+                if i % 2 == 0 and i != len(parents)-1:
                     # Generating next generation using crossover.
-                    self.children.extend(self.crossover2(parents[i], parents[i+1]))
+                    self.children.extend(self.crossover(parents[i], parents[i+1]))
             # Adding some variations to the offsrping using mutation.
             for child in self.children:
                  self.offspring.append(self.reverse_sequence_mutation(child))
