@@ -1,0 +1,222 @@
+2022-12-24 19:32:02,605		Starting Hill Climbing algorithm for 3 cities
+2022-12-24 19:32:02,626		# Total number of neighbors on First round 3
+2022-12-24 19:32:10,326		Results:
+2022-12-24 19:32:10,327		Best Sequence: [0, 1, 2]
+2022-12-24 19:32:10,328		Least distance is 32192.646584455222 km
+2022-12-24 19:32:10,329		Time: 0:00:00.057196 seconds
+2022-12-24 19:32:10,381		Starting Hill Climbing algorithm for 5 cities
+2022-12-24 19:32:10,446		# Total number of neighbors on First round 10
+2022-12-24 19:32:10,631		# Total number of neighbors in 1 iteration 10
+2022-12-24 19:32:10,823		# Total number of neighbors in 2 iteration 10
+2022-12-24 19:33:50,293		Starting Hill Climbing algorithm for 3 cities
+2022-12-24 19:33:50,312		# Total number of neighbors on First round 3
+2022-12-24 19:33:51,659		Results:
+2022-12-24 19:33:51,659		Best Sequence: [1, 0, 2]
+2022-12-24 19:33:51,660		Least distance is 32192.646584455222 km
+2022-12-24 19:33:51,660		Time: 0:00:00.054490 seconds
+2022-12-24 19:33:51,696		Starting Hill Climbing algorithm for 5 cities
+2022-12-24 19:33:51,756		# Total number of neighbors on First round 10
+2022-12-24 19:33:52,006		# Total number of neighbors in 1 iteration 10
+2022-12-24 19:33:53,180		Results:
+2022-12-24 19:33:53,180		Best Sequence: [2, 1, 0, 3, 4]
+2022-12-24 19:33:53,181		Least distance is 33844.1402837352 km
+2022-12-24 19:33:53,181		Time: 0:00:00.478177 seconds
+2022-12-24 19:33:53,218		Starting Hill Climbing algorithm for 10 cities
+2022-12-24 19:33:53,403		# Total number of neighbors on First round 45
+2022-12-24 19:33:54,805		# Total number of neighbors in 1 iteration 45
+2022-12-24 19:33:57,501		Results:
+2022-12-24 19:33:57,501		Best Sequence: [0, 5, 6, 3, 1, 4, 8, 9, 2, 7]
+2022-12-24 19:33:57,501		Least distance is 43229.96469538743 km
+2022-12-24 19:33:57,502		Time: 0:00:02.964561 seconds
+2022-12-24 19:33:57,543		Starting Hill Climbing algorithm for 15 cities
+2022-12-24 19:33:57,921		# Total number of neighbors on First round 105
+2022-12-24 19:34:02,519		# Total number of neighbors in 1 iteration 105
+2022-12-24 19:34:07,237		# Total number of neighbors in 2 iteration 105
+2022-12-24 19:34:11,839		# Total number of neighbors in 3 iteration 105
+2022-12-24 19:34:18,057		Results:
+2022-12-24 19:34:18,057		Best Sequence: [7, 11, 13, 6, 5, 0, 14, 12, 3, 1, 4, 8, 10, 2, 9]
+2022-12-24 19:34:18,058		Least distance is 46926.107826809406 km
+2022-12-24 19:34:18,058		Time: 0:00:18.916223 seconds
+2022-12-24 19:34:18,102		Starting Hill Climbing algorithm for 20 cities
+2022-12-24 19:34:18,753		# Total number of neighbors on First round 190
+2022-12-24 19:34:29,620		# Total number of neighbors in 1 iteration 190
+2022-12-24 19:34:40,417		# Total number of neighbors in 2 iteration 190
+2022-12-24 19:34:53,134		Results:
+2022-12-24 19:34:53,134		Best Sequence: [9, 2, 16, 10, 8, 18, 4, 1, 3, 12, 5, 6, 17, 13, 15, 11, 7, 19, 0, 14]
+2022-12-24 19:34:53,135		Least distance is 69304.69031521282 km
+2022-12-24 19:34:53,135		Time: 0:00:33.151074 seconds
+2022-12-24 19:34:53,184		Starting Hill Climbing algorithm for 50 cities
+2022-12-24 19:34:57,084		# Total number of neighbors on First round 1225
+2022-12-24 19:37:53,385		# Total number of neighbors in 1 iteration 1225
+2022-12-24 19:40:54,992		# Total number of neighbors in 2 iteration 1225
+2022-12-24 19:43:54,478		# Total number of neighbors in 3 iteration 1225
+2022-12-24 19:46:53,640		# Total number of neighbors in 4 iteration 1225
+2022-12-24 19:49:55,503		# Total number of neighbors in 5 iteration 1225
+2022-12-24 19:52:40,422		# Total number of neighbors in 6 iteration 1225
+2022-12-24 19:55:23,414		# Total number of neighbors in 7 iteration 1225
+2022-12-24 19:58:06,876		# Total number of neighbors in 8 iteration 1225
+2022-12-24 20:00:50,128		# Total number of neighbors in 9 iteration 1225
+2022-12-24 20:03:33,478		# Total number of neighbors in 10 iteration 1225
+2022-12-24 20:06:16,202		# Total number of neighbors in 11 iteration 1225
+2022-12-24 20:09:02,368		Results:
+2022-12-24 20:09:02,368		Best Sequence: [26, 43, 38, 29, 27, 49, 41, 33, 37, 34, 19, 22, 45, 30, 11, 24, 39, 15, 13, 35, 17, 47, 44, 6, 12, 5, 25, 0, 14, 31, 21, 1, 3, 23, 42, 9, 28, 20, 2, 16, 8, 10, 48, 32, 18, 36, 4, 40, 46, 7]
+2022-12-24 20:09:02,368		Least distance is 75595.92158329485 km
+2022-12-24 20:09:02,369		Time: 0:34:05.696845 seconds
+2022-12-24 20:09:02,427		Starting Hill Climbing algorithm for 100 cities
+2022-12-24 20:09:17,358		# Total number of neighbors on First round 4950
+2022-12-24 20:30:45,328		# Total number of neighbors in 1 iteration 4950
+2022-12-24 20:52:13,574		# Total number of neighbors in 2 iteration 4950
+2022-12-24 21:13:41,267		# Total number of neighbors in 3 iteration 4950
+2022-12-24 21:35:10,631		# Total number of neighbors in 4 iteration 4950
+2022-12-24 21:56:36,802		# Total number of neighbors in 5 iteration 4950
+2022-12-24 22:19:02,105		# Total number of neighbors in 6 iteration 4950
+2022-12-24 22:43:48,926		# Total number of neighbors in 7 iteration 4950
+2022-12-24 23:09:08,294		# Total number of neighbors in 8 iteration 4950
+2022-12-24 23:34:59,928		# Total number of neighbors in 9 iteration 4950
+2022-12-25 00:01:38,845		# Total number of neighbors in 10 iteration 4950
+2022-12-25 00:28:48,771		# Total number of neighbors in 11 iteration 4950
+2022-12-25 00:53:49,900		Results:
+2022-12-25 00:53:49,900		Best Sequence: [45, 22, 26, 82, 99, 7, 55, 63, 46, 40, 92, 75, 64, 83, 8, 10, 48, 32, 18, 65, 61, 98, 28, 20, 52, 16, 80, 2, 9, 91, 56, 49, 58, 67, 27, 60, 71, 29, 38, 96, 59, 69, 78, 74, 53, 73, 34, 66, 37, 41, 33, 81, 94, 88, 87, 89, 19, 43, 62, 93, 72, 86, 68, 51, 42, 23, 90, 17, 47, 76, 44, 97, 85, 6, 12, 50, 5, 25, 0, 14, 31, 21, 1, 3, 35, 79, 13, 15, 39, 54, 24, 77, 11, 30, 84, 70, 95, 4, 36, 57]
+2022-12-25 00:53:49,900		Least distance is 115533.67932408817 km
+2022-12-25 00:53:49,901		Time: 4:44:40.653553 seconds
+2022-12-25 00:53:49,974		Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2022-12-25 00:53:49,977		Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+------------------
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     9    114.6 MiB    114.6 MiB           1   @profile
+    10                                         def main(cities_world):
+    11                                             """Run the Hill Climb Algorithm for TSP"""
+    12                                             # Number of Cities
+    13                                             # N = 3, 5, 10, 15, 20, 50, 100
+    14    114.6 MiB      0.0 MiB           1       number_of_cities = [3, 5, 10, 15, 20, 50, 100]
+    15
+    16                                             # Track Time and Convergence over iteration
+    17    114.6 MiB      0.0 MiB           1       time_executing = {}
+    18    114.6 MiB      0.0 MiB           1       solutions_fitness_cities = {}
+    19
+    20                                             # Configure the logging
+    21    114.6 MiB      0.0 MiB           2       logging.basicConfig(filename='./results/hillClimbAlgo_log',
+    22    114.6 MiB      0.0 MiB           1                           level=logging.INFO,
+    23    114.6 MiB      0.0 MiB           1                           format='%(asctime)s\t\t%(message)s',
+    24    114.6 MiB      0.0 MiB           1                           filemode='a')
+    25
+    26    189.1 MiB      0.0 MiB           8       for number in number_of_cities:
+    27    177.5 MiB      0.0 MiB           7           coor = list(cities_world.values())[:number]
+    28
+    29    177.5 MiB      0.0 MiB           7           print(f"-----Hill climbing algorithm-----------")
+    30    177.5 MiB      0.0 MiB           7           print("***************************")
+    31    177.5 MiB      0.0 MiB           7           print(f"Starting with {number} of cities")
+    32    177.5 MiB      0.0 MiB           7           print("***************************")
+    33    177.5 MiB      0.0 MiB           7           logging.info(f"Starting Hill Climbing algorithm for {number} cities")
+    34
+    35                                                 # Initialize the Class object of Hill Climbing Algorithm
+    36    177.5 MiB      0.0 MiB           7           hill_climb_algorithm = HillClimbing(coor)
+    37
+    38                                                 # Start monitoring time before the algorithm
+    39    177.5 MiB      0.0 MiB           7           start_time = time.perf_counter()
+    40
+    41                                                 # Get the best Solution with the route Length
+    42    181.8 MiB      5.5 MiB           7           solution, distance, iteration_fitness = hill_climb_algorithm.apply()
+    43    181.8 MiB      0.0 MiB           7           solutions_fitness_cities[f"{number}"] = [solution, distance, iteration_fitness]
+    44
+    45                                                 # After applying the Algorithm
+    46    181.8 MiB      0.0 MiB           7           end_time = time.perf_counter()
+    47    181.8 MiB      0.0 MiB           7           total_time = end_time - start_time
+    48    181.8 MiB      0.0 MiB           7           time_executing[f"{number}"] = total_time
+    49
+    50    181.8 MiB      0.0 MiB          14           print(
+    51    181.8 MiB      0.0 MiB           7               f" Hill Clim, The best route for {number}  cities is {solution} with total distance {distance} km  took {total_time:0.4f} seconds")
+    52
+    53                                                 # Plotting route
+    54    189.1 MiB     69.0 MiB           7           plotting_route(cities_world, solution, distance, "HC")
+    55
+    56    189.1 MiB      0.0 MiB           7           logging.info("Results:")
+    57    189.1 MiB      0.0 MiB           7           logging.info(f"Best Sequence: {solution}")
+    58    189.1 MiB      0.0 MiB           7           logging.info(f"Least distance is {distance} km")
+    59    189.1 MiB      0.0 MiB           7           logging.info(f"Time: {str(datetime.timedelta(seconds=total_time))} seconds")
+    60
+    61    189.1 MiB      0.0 MiB           7           gc.collect()
+    62
+    63    189.1 MiB      0.0 MiB           1       return time_executing, solutions_fitness_cities
+
+
+
+Process finished with exit code 0
+2022-12-25 16:29:08,182		Starting Hill Climbing algorithm for 3 cities
+2022-12-25 16:29:08,205		# Total number of neighbors on First round 3
+2022-12-25 16:29:33,715		Starting Hill Climbing algorithm for 3 cities
+2022-12-25 16:29:33,742		# Total number of neighbors on First round 3
+2022-12-25 16:29:59,392		Starting Hill Climbing algorithm for 3 cities
+2022-12-25 16:29:59,415		# Total number of neighbors on First round 3
+2022-12-25 16:30:00,933		Results:
+2022-12-25 16:30:00,933		Best Sequence: [1, 0, 2]
+2022-12-25 16:30:00,933		Least distance is 32192.646584455222 km
+2022-12-25 16:30:00,934		Time: 0:00:00.066625 seconds
+2022-12-25 16:30:00,977		Starting Hill Climbing algorithm for 5 cities
+2022-12-25 16:30:01,047		# Total number of neighbors on First round 10
+2022-12-25 16:30:01,257		# Total number of neighbors in 1 iteration 10
+2022-12-25 16:30:02,588		Results:
+2022-12-25 16:30:02,589		Best Sequence: [1, 2, 4, 3, 0]
+2022-12-25 16:30:02,589		Least distance is 33844.1402837352 km
+2022-12-25 16:30:02,589		Time: 0:00:00.475442 seconds
+2022-12-25 16:30:02,631		Starting Hill Climbing algorithm for 10 cities
+2022-12-25 16:30:02,867		# Total number of neighbors on First round 45
+2022-12-25 16:30:04,453		# Total number of neighbors in 1 iteration 45
+2022-12-25 16:30:05,883		# Total number of neighbors in 2 iteration 45
+2022-12-25 16:30:07,432		# Total number of neighbors in 3 iteration 45
+2022-12-25 16:30:08,961		# Total number of neighbors in 4 iteration 45
+2022-12-25 16:30:12,181		Results:
+2022-12-25 16:30:12,181		Best Sequence: [1, 3, 6, 5, 0, 7, 2, 9, 8, 4]
+2022-12-25 16:30:12,182		Least distance is 43229.96469538743 km
+2022-12-25 16:30:12,182		Time: 0:00:07.860937 seconds
+2022-12-25 16:30:12,227		Starting Hill Climbing algorithm for 15 cities
+2022-12-25 16:30:12,643		# Total number of neighbors on First round 105
+2022-12-25 16:30:17,852		# Total number of neighbors in 1 iteration 105
+2022-12-25 16:30:23,263		# Total number of neighbors in 2 iteration 105
+2022-12-25 16:30:28,467		# Total number of neighbors in 3 iteration 105
+2022-12-25 16:30:33,634		# Total number of neighbors in 4 iteration 105
+2022-12-25 16:30:41,147		Results:
+2022-12-25 16:30:41,148		Best Sequence: [10, 8, 2, 9, 4, 1, 3, 12, 14, 0, 5, 6, 13, 11, 7]
+2022-12-25 16:30:41,148		Least distance is 48263.82415471599 km
+2022-12-25 16:30:41,148		Time: 0:00:27.042755 seconds
+2022-12-25 16:30:41,197		Starting Hill Climbing algorithm for 20 cities
+2022-12-25 16:30:42,105		# Total number of neighbors on First round 190
+2022-12-25 16:30:57,505		Results:
+2022-12-25 16:30:57,505		Best Sequence: [10, 18, 4, 8, 16, 2, 9, 19, 13, 17, 6, 5, 12, 3, 1, 14, 0, 15, 11, 7]
+2022-12-25 16:30:57,506		Least distance is 56905.65135736603 km
+2022-12-25 16:30:57,506		Time: 0:00:13.982730 seconds
+2022-12-25 16:30:57,566		Starting Hill Climbing algorithm for 50 cities
+2022-12-25 16:31:02,810		# Total number of neighbors on First round 1225
+2022-12-25 16:34:23,609		# Total number of neighbors in 1 iteration 1225
+2022-12-25 16:37:59,857		# Total number of neighbors in 2 iteration 1225
+2022-12-25 16:41:11,942		# Total number of neighbors in 3 iteration 1225
+2022-12-25 16:44:21,266		# Total number of neighbors in 4 iteration 1225
+2022-12-25 16:47:26,888		# Total number of neighbors in 5 iteration 1225
+2022-12-25 16:50:37,618		# Total number of neighbors in 6 iteration 1225
+2022-12-25 16:53:47,632		# Total number of neighbors in 7 iteration 1225
+2022-12-25 16:56:55,747		# Total number of neighbors in 8 iteration 1225
+2022-12-25 17:00:08,154		# Total number of neighbors in 9 iteration 1225
+2022-12-25 17:03:21,731		# Total number of neighbors in 10 iteration 1225
+2022-12-25 17:06:30,300		# Total number of neighbors in 11 iteration 1225
+2022-12-25 17:09:38,062		# Total number of neighbors in 12 iteration 1225
+2022-12-25 17:13:11,324		Results:
+2022-12-25 17:13:11,324		Best Sequence: [11, 24, 15, 39, 30, 45, 22, 26, 19, 43, 38, 29, 34, 37, 33, 41, 49, 27, 42, 23, 13, 35, 17, 47, 44, 6, 12, 5, 25, 0, 14, 31, 21, 3, 1, 4, 36, 18, 32, 10, 48, 8, 16, 2, 9, 20, 28, 40, 46, 7]
+2022-12-25 17:13:11,325		Least distance is 69061.62966550258 km
+2022-12-25 17:13:11,325		Time: 0:42:09.242766 seconds
+2022-12-25 17:13:11,393		Starting Hill Climbing algorithm for 100 cities
+2022-12-25 17:13:31,969		# Total number of neighbors on First round 4950
+2022-12-25 17:40:54,210		# Total number of neighbors in 1 iteration 4950
+2022-12-25 18:07:38,191		# Total number of neighbors in 2 iteration 4950
+2022-12-25 18:35:00,010		# Total number of neighbors in 3 iteration 4950
+2022-12-25 19:01:29,761		# Total number of neighbors in 4 iteration 4950
+2022-12-25 19:25:38,216		# Total number of neighbors in 5 iteration 4950
+2022-12-25 19:49:37,030		# Total number of neighbors in 6 iteration 4950
+2022-12-25 20:13:38,792		# Total number of neighbors in 7 iteration 4950
+2022-12-25 20:38:49,819		# Total number of neighbors in 8 iteration 4950
+2022-12-25 21:02:09,603		# Total number of neighbors in 9 iteration 4950
+2022-12-25 21:26:48,318		# Total number of neighbors in 10 iteration 4950
+2022-12-25 21:51:52,945		# Total number of neighbors in 11 iteration 4950
+2022-12-25 22:17:34,501		# Total number of neighbors in 12 iteration 4950
+2022-12-25 22:43:33,816		# Total number of neighbors in 13 iteration 4950
+2022-12-25 23:08:56,403		# Total number of neighbors in 14 iteration 4950

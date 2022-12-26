@@ -1,0 +1,240 @@
+2022-12-25 01:41:57,901		Starting  Simulated annealing algorithm for 3 cities
+2022-12-25 01:41:57,931		# round 0 iteration  best fitness in this iteration 32192.646584455222
+2022-12-25 01:41:57,941		# round 1 iteration  best fitness in this iteration 32192.646584455222
+2022-12-25 01:41:57,951		# round 2 iteration  best fitness in this iteration 32192.646584455222
+2022-12-25 01:41:59,279		Results from Simulated annealing algorithm:
+2022-12-25 01:41:59,279		Best Sequence: [1, 0, 2]
+2022-12-25 01:41:59,279		Least distance is 32192.646584455222 km
+2022-12-25 01:41:59,280		Time: 0:00:00.050035
+2022-12-25 01:41:59,317		Starting  Simulated annealing algorithm for 5 cities
+2022-12-25 01:41:59,394		# round 0 iteration  best fitness in this iteration 34280.46789792155
+2022-12-25 01:41:59,410		# round 1 iteration  best fitness in this iteration 34280.46789792155
+2022-12-25 01:41:59,425		# round 2 iteration  best fitness in this iteration 34280.46789792155
+2022-12-25 01:41:59,440		# round 3 iteration  best fitness in this iteration 34280.46789792155
+2022-12-25 01:41:59,456		# round 4 iteration  best fitness in this iteration 34280.46789792155
+2022-12-25 01:42:00,436		Results from Simulated annealing algorithm:
+2022-12-25 01:42:00,437		Best Sequence: [2, 4, 1, 3, 0]
+2022-12-25 01:42:00,437		Least distance is 34280.46789792155 km
+2022-12-25 01:42:00,437		Time: 0:00:00.138485
+2022-12-25 01:42:00,475		Starting  Simulated annealing algorithm for 10 cities
+2022-12-25 01:42:00,681		# round 0 iteration  best fitness in this iteration 48717.76492509442
+2022-12-25 01:42:00,710		# round 1 iteration  best fitness in this iteration 48717.76492509442
+2022-12-25 01:42:00,740		# round 2 iteration  best fitness in this iteration 48717.76492509442
+2022-12-25 01:42:00,769		# round 3 iteration  best fitness in this iteration 48717.76492509442
+2022-12-25 01:42:00,798		# round 4 iteration  best fitness in this iteration 48717.76492509442
+2022-12-25 01:42:00,827		# round 5 iteration  best fitness in this iteration 48636.96505582068
+2022-12-25 01:42:00,857		# round 6 iteration  best fitness in this iteration 48636.96505582068
+2022-12-25 01:42:00,887		# round 7 iteration  best fitness in this iteration 48636.96505582068
+2022-12-25 01:42:00,917		# round 8 iteration  best fitness in this iteration 48636.96505582068
+2022-12-25 01:42:00,946		# round 9 iteration  best fitness in this iteration 48636.96505582068
+2022-12-25 01:42:02,197		Results from Simulated annealing algorithm:
+2022-12-25 01:42:02,197		Best Sequence: [1, 3, 6, 7, 9, 2, 8, 4, 0, 5]
+2022-12-25 01:42:02,198		Least distance is 48636.96505582068 km
+2022-12-25 01:42:02,198		Time: 0:00:00.471172
+2022-12-25 01:42:02,239		Starting  Simulated annealing algorithm for 15 cities
+2022-12-25 01:42:02,651		# round 0 iteration  best fitness in this iteration 54193.79546258655
+2022-12-25 01:42:02,694		# round 1 iteration  best fitness in this iteration 54193.79546258655
+2022-12-25 01:42:02,736		# round 2 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:02,779		# round 3 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:02,822		# round 4 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:02,865		# round 5 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:02,907		# round 6 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:02,950		# round 7 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:02,992		# round 8 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:03,036		# round 9 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:03,078		# round 10 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:03,120		# round 11 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:03,163		# round 12 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:03,206		# round 13 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:03,248		# round 14 iteration  best fitness in this iteration 54191.8499029088
+2022-12-25 01:42:04,777		Results from Simulated annealing algorithm:
+2022-12-25 01:42:04,777		Best Sequence: [14, 12, 5, 6, 0, 1, 3, 13, 11, 7, 9, 2, 8, 10, 4]
+2022-12-25 01:42:04,777		Least distance is 54191.8499029088 km
+2022-12-25 01:42:04,778		Time: 0:00:01.009573
+2022-12-25 01:42:04,824		Starting  Simulated annealing algorithm for 20 cities
+2022-12-25 01:42:05,521		# round 0 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:05,581		# round 1 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:05,650		# round 2 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:05,711		# round 3 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:05,775		# round 4 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:05,837		# round 5 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:05,892		# round 6 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:05,946		# round 7 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:06,002		# round 8 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:06,057		# round 9 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:06,112		# round 10 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:06,168		# round 11 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:06,223		# round 12 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:06,279		# round 13 iteration  best fitness in this iteration 77280.40943136442
+2022-12-25 01:42:06,334		# round 14 iteration  best fitness in this iteration 76025.43304447625
+2022-12-25 01:42:06,389		# round 15 iteration  best fitness in this iteration 76025.43304447625
+2022-12-25 01:42:06,444		# round 16 iteration  best fitness in this iteration 76025.43304447625
+2022-12-25 01:42:06,499		# round 17 iteration  best fitness in this iteration 76025.43304447625
+2022-12-25 01:42:06,555		# round 18 iteration  best fitness in this iteration 76025.43304447625
+2022-12-25 01:42:06,611		# round 19 iteration  best fitness in this iteration 76025.43304447625
+2022-12-25 01:42:08,410		Results from Simulated annealing algorithm:
+2022-12-25 01:42:08,411		Best Sequence: [0, 5, 12, 6, 17, 13, 7, 3, 14, 1, 4, 18, 10, 8, 16, 2, 9, 19, 11, 15]
+2022-12-25 01:42:08,411		Least distance is 76025.43304447625 km
+2022-12-25 01:42:08,411		Time: 0:00:01.786666
+2022-12-25 01:42:08,459		Starting  Simulated annealing algorithm for 50 cities
+2022-12-25 01:42:12,472		# round 0 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:12,610		# round 1 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:12,744		# round 2 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:12,878		# round 3 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:13,016		# round 4 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:13,150		# round 5 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:13,284		# round 6 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:13,420		# round 7 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:13,555		# round 8 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:13,695		# round 9 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:13,843		# round 10 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:13,977		# round 11 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:14,118		# round 12 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:14,251		# round 13 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:14,386		# round 14 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:14,522		# round 15 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:14,656		# round 16 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:14,790		# round 17 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:14,924		# round 18 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:15,060		# round 19 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:15,194		# round 20 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:15,328		# round 21 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:15,462		# round 22 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:15,594		# round 23 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:15,728		# round 24 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:15,860		# round 25 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:15,994		# round 26 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:16,126		# round 27 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:16,258		# round 28 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:16,392		# round 29 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:16,529		# round 30 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:16,662		# round 31 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:16,795		# round 32 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:16,930		# round 33 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:17,064		# round 34 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:17,198		# round 35 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:17,331		# round 36 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:17,464		# round 37 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:17,599		# round 38 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:17,733		# round 39 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:17,867		# round 40 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:18,000		# round 41 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:18,133		# round 42 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:18,267		# round 43 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:18,401		# round 44 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:18,533		# round 45 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:18,665		# round 46 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:18,797		# round 47 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:18,929		# round 48 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:19,064		# round 49 iteration  best fitness in this iteration 75640.00553065864
+2022-12-25 01:42:22,704		Results from Simulated annealing algorithm:
+2022-12-25 01:42:22,704		Best Sequence: [30, 11, 39, 15, 24, 45, 22, 26, 19, 43, 38, 29, 34, 37, 41, 49, 27, 33, 42, 23, 13, 35, 17, 47, 44, 6, 5, 25, 12, 21, 31, 14, 0, 3, 1, 4, 36, 18, 32, 48, 10, 8, 16, 2, 20, 28, 9, 40, 46, 7]
+2022-12-25 01:42:22,705		Least distance is 75640.00553065864 km
+2022-12-25 01:42:22,705		Time: 0:00:10.604176
+2022-12-25 01:42:22,761		Starting  Simulated annealing algorithm for 100 cities
+2022-12-25 01:42:38,353		# round 0 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:38,614		# round 1 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:38,875		# round 2 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:39,134		# round 3 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:39,396		# round 4 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:39,662		# round 5 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:39,923		# round 6 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:40,189		# round 7 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:40,449		# round 8 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:40,708		# round 9 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:40,969		# round 10 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:41,236		# round 11 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:41,500		# round 12 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:41,763		# round 13 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:42,024		# round 14 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:42,287		# round 15 iteration  best fitness in this iteration 122317.98188388551
+2022-12-25 01:42:42,554		# round 16 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:42,816		# round 17 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:43,081		# round 18 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:43,344		# round 19 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:43,608		# round 20 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:43,879		# round 21 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:44,151		# round 22 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:44,416		# round 23 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:44,680		# round 24 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:44,943		# round 25 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:45,203		# round 26 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:45,466		# round 27 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:45,727		# round 28 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:45,989		# round 29 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:46,254		# round 30 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:46,522		# round 31 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:46,784		# round 32 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:47,046		# round 33 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:47,305		# round 34 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:47,566		# round 35 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:47,825		# round 36 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:48,085		# round 37 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:48,344		# round 38 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:48,605		# round 39 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:48,864		# round 40 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:49,124		# round 41 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:49,385		# round 42 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:49,645		# round 43 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:49,904		# round 44 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:50,163		# round 45 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:50,423		# round 46 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:50,683		# round 47 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:50,942		# round 48 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:51,203		# round 49 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:51,464		# round 50 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:51,727		# round 51 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:51,987		# round 52 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:52,249		# round 53 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:52,506		# round 54 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:52,766		# round 55 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:53,025		# round 56 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:53,282		# round 57 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:53,540		# round 58 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:53,804		# round 59 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:54,067		# round 60 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:54,341		# round 61 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:54,603		# round 62 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:54,873		# round 63 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:55,138		# round 64 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:55,403		# round 65 iteration  best fitness in this iteration 122317.9818838855
+2022-12-25 01:42:55,664		# round 66 iteration  best fitness in this iteration 122282.39713742383
+2022-12-25 01:42:55,928		# round 67 iteration  best fitness in this iteration 122282.39713742383
+2022-12-25 01:42:56,194		# round 68 iteration  best fitness in this iteration 122282.39713742383
+2022-12-25 01:42:56,455		# round 69 iteration  best fitness in this iteration 122282.39713742383
+2022-12-25 01:42:56,717		# round 70 iteration  best fitness in this iteration 122282.39713742383
+2022-12-25 01:42:56,976		# round 71 iteration  best fitness in this iteration 122282.39713742383
+2022-12-25 01:42:57,236		# round 72 iteration  best fitness in this iteration 122282.39713742383
+2022-12-25 01:42:57,494		# round 73 iteration  best fitness in this iteration 122282.39713742383
+2022-12-25 01:42:57,755		# round 74 iteration  best fitness in this iteration 122282.39713742383
+2022-12-25 01:42:58,013		# round 75 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:42:58,274		# round 76 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:42:58,532		# round 77 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:42:58,795		# round 78 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:42:59,095		# round 79 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:42:59,354		# round 80 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:42:59,614		# round 81 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:42:59,876		# round 82 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:00,143		# round 83 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:00,404		# round 84 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:00,663		# round 85 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:00,921		# round 86 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:01,183		# round 87 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:01,441		# round 88 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:01,701		# round 89 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:01,961		# round 90 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:02,221		# round 91 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:02,481		# round 92 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:02,742		# round 93 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:03,000		# round 94 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:03,263		# round 95 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:03,525		# round 96 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:03,790		# round 97 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:04,051		# round 98 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:04,315		# round 99 iteration  best fitness in this iteration 121395.44770506574
+2022-12-25 01:43:10,685		Results from Simulated annealing algorithm:
+2022-12-25 01:43:10,685		Best Sequence: [59, 74, 53, 73, 66, 34, 37, 94, 81, 33, 41, 56, 49, 67, 58, 27, 60, 71, 29, 38, 86, 68, 51, 42, 23, 90, 17, 47, 76, 44, 85, 97, 6, 50, 12, 5, 25, 0, 84, 19, 62, 93, 72, 43, 88, 87, 89, 91, 9, 80, 16, 2, 52, 20, 28, 98, 61, 65, 18, 32, 48, 10, 8, 83, 64, 75, 92, 40, 46, 63, 55, 7, 99, 82, 26, 22, 45, 30, 11, 77, 24, 54, 39, 15, 13, 79, 35, 3, 1, 21, 31, 14, 70, 95, 4, 36, 57, 69, 78, 96]
+2022-12-25 01:43:10,685		Least distance is 121395.44770506574 km
+2022-12-25 01:43:10,686		Time: 0:00:41.554220
+2022-12-25 01:43:10,757		Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2022-12-25 01:43:10,760		Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

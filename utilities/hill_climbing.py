@@ -1,8 +1,7 @@
 # Hill Climbing Algorithm
 import random
 import geopy.distance
-import matplotlib.pyplot as plt
-from .visualize import plotTSP
+import logging
 
 class HillClimbing():
     def __init__(self, coords):
@@ -78,29 +77,27 @@ class HillClimbing():
 
     # Apply the Hill Climbing algorithm over a set of cities
     def apply(self):
+        # Track number of iteration with fitness value
+        iteration_fitness = []
+        # Get the initial solution
         current_solution, current_solution_fitness = self.initial_solution()
         neighbours = self.get_neighbours(current_solution)
+        print("# Total number of neighbors on First round", len(neighbours))
+        logging.info(f"# Total number of neighbors on First round {len(neighbours)}")
         best_neighbour, best_neighbour_route_length = self.get_best_neighbour(neighbours)
+        # if we get only in first iteration
+        i = 1
+        iteration_fitness.append([i, best_neighbour_route_length])
 
         while best_neighbour_route_length < current_solution_fitness:
             current_solution = best_neighbour
             current_solution_fitness = best_neighbour_route_length
             neighbours = self.get_neighbours(current_solution)
+            print(f"# Total number of neighbors in {i} iteration", len(neighbours))
+            logging.info(f"# Total number of neighbors in {i} iteration {len(neighbours)}")
             best_neighbour, best_neighbour_route_length = self.get_best_neighbour(neighbours)
+            iteration_fitness.append([i, best_neighbour_route_length])
+            i = i + 1
 
-        return best_neighbour,best_neighbour_route_length
+        return best_neighbour,best_neighbour_route_length,iteration_fitness
 
-    def visualize_routes(self):
-        """
-        Visualize the TSP route with matplotlib.
-        """
-        plotTSP([self.best_solution], self.coords)
-
-    def plot_learning(self):
-        """
-        Plot the fitness through iterations.
-        """
-        plt.plot([i for i in range(len(self.fitness_list))], self.fitness_list)
-        plt.ylabel("Fitness")
-        plt.xlabel("Iteration")
-        plt.show()

@@ -1,0 +1,59 @@
+2022-12-25 11:00:52,287		Starting  Genetic Algorithm for 3 cities
+2022-12-25 11:00:52,318		First Population 2
+2022-12-25 11:00:52,436		Number of iteration 0, lowest path distance32192.646584455222
+2022-12-25 11:00:55,218		Results:
+2022-12-25 11:00:55,219		Best Sequence: [0, 2, 1]
+2022-12-25 11:00:55,219		Least distance is 32192.646584455222 km
+2022-12-25 11:00:55,220		Time: 0:00:00.177962
+2022-12-25 11:00:55,919		Starting  Genetic Algorithm for 5 cities
+2022-12-25 11:00:56,027		First Population 7
+2022-12-25 11:00:56,888		Number of iteration 0, lowest path distance34280.46789792155
+2022-12-25 11:00:59,679		Results:
+2022-12-25 11:00:59,679		Best Sequence: [2, 0, 3, 1, 4]
+2022-12-25 11:00:59,680		Least distance is 34280.46789792155 km
+2022-12-25 11:00:59,680		Time: 0:00:01.169717
+2022-12-25 11:01:00,802		Starting  Genetic Algorithm for 10 cities
+2022-12-25 11:01:01,336		First Population 18
+2022-12-25 11:01:06,134		Number of iteration 0, lowest path distance54418.6738123991
+2022-12-25 11:01:12,340		Number of iteration 1, lowest path distance55646.101482060134
+2022-12-25 11:01:19,026		Results:
+2022-12-25 11:01:19,026		Best Sequence: [6, 1, 0, 5, 2, 8, 7, 9, 4, 3]
+2022-12-25 11:01:19,027		Least distance is 55646.101482060134 km
+2022-12-25 11:01:19,027		Time: 0:00:13.934119
+2022-12-25 11:01:21,336		Starting  Genetic Algorithm for 15 cities
+2022-12-25 11:01:22,211		First Population 25
+2022-12-25 11:01:32,583		Number of iteration 0, lowest path distance69678.08415874443
+2022-12-25 11:01:43,601		Number of iteration 1, lowest path distance89912.73171111164
+2022-12-25 11:01:51,303		Results:
+2022-12-25 11:01:51,304		Best Sequence: [5, 3, 6, 0, 14, 12, 1, 13, 4, 11, 9, 2, 7, 8, 10]
+2022-12-25 11:01:51,305		Least distance is 89912.73171111164 km
+2022-12-25 11:01:51,305		Time: 0:00:26.601890
+2022-12-25 11:01:53,018		Starting  Genetic Algorithm for 20 cities
+2022-12-25 11:01:54,225		First Population 34
+2022-12-25 11:02:11,349		Number of iteration 0, lowest path distance115945.69418925613
+2022-12-25 11:02:31,547		Number of iteration 1, lowest path distance120003.04304046927
+2022-12-25 11:02:43,864		Results:
+2022-12-25 11:02:43,865		Best Sequence: [3, 1, 14, 6, 13, 9, 18, 5, 11, 10, 4, 2, 19, 17, 15, 7, 8, 16, 0, 12]
+2022-12-25 11:02:43,865		Least distance is 120003.04304046927 km
+2022-12-25 11:02:43,866		Time: 0:00:46.654099
+2022-12-25 11:02:46,219		Starting  Genetic Algorithm for 50 cities
+2022-12-25 11:02:53,638		First Population 97
+2022-12-25 11:04:39,323		Number of iteration 0, lowest path distance242121.93056843354
+2022-12-25 11:07:01,846		Number of iteration 1, lowest path distance291698.7594178264
+2022-12-25 11:11:45,403		Number of iteration 2, lowest path distance285571.93437997065
+2022-12-25 11:13:47,106		Results:
+2022-12-25 11:13:47,107		Best Sequence: [44, 31, 14, 27, 13, 23, 37, 34, 18, 28, 40, 32, 9, 36, 2, 24, 11, 6, 25, 15, 45, 16, 22, 10, 8, 41, 12, 42, 48, 4, 29, 0, 39, 47, 26, 17, 7, 30, 20, 43, 46, 19, 38, 5, 33, 49, 21, 1, 3, 35]
+2022-12-25 11:13:47,107		Least distance is 285571.93437997065 km
+2022-12-25 11:13:47,108		Time: 0:10:52.866851
+2022-12-25 11:13:50,118		Starting  Genetic Algorithm for 100 cities
+2022-12-25 11:14:19,961		First Population 198
+2022-12-25 11:21:22,498		Number of iteration 0, lowest path distance522043.0564361631
+2022-12-25 11:31:13,090		Number of iteration 1, lowest path distance597589.1003714049
+2022-12-25 11:51:26,729		Number of iteration 2, lowest path distance610466.8319688634
+2022-12-25 12:32:06,198		Number of iteration 3, lowest path distance607841.9195437888
+2022-12-25 12:48:24,301		Results:
+2022-12-25 12:48:24,302		Best Sequence: [22, 32, 4, 70, 35, 82, 72, 10, 38, 90, 25, 63, 7, 31, 85, 95, 83, 87, 6, 99, 69, 60, 81, 67, 78, 19, 9, 18, 29, 66, 73, 12, 77, 56, 11, 28, 8, 75, 34, 59, 30, 62, 37, 86, 44, 36, 26, 64, 93, 71, 58, 17, 23, 80, 55, 43, 39, 47, 68, 88, 57, 40, 46, 98, 76, 5, 97, 92, 24, 91, 79, 53, 33, 3, 42, 14, 21, 1, 50, 89, 0, 74, 51, 94, 2, 48, 20, 16, 41, 61, 13, 84, 52, 54, 27, 15, 96, 45, 65, 49]
+2022-12-25 12:48:24,303		Least distance is 607841.9195437888 km
+2022-12-25 12:48:24,303		Time: 1:34:20.617791
+2022-12-25 12:48:29,124		Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2022-12-25 12:48:29,127		Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

@@ -1,10 +1,8 @@
+# Simulated Annealing
 import math
 import random
-import matplotlib.pyplot as plt
 import geopy.distance
-
-from .visualize import plotTSP
-
+import logging
 
 class SimAnneal(object):
     def __init__(self, coords, T=-1, alpha=-1, stopping_T=-1, stopping_iter=-1):
@@ -15,7 +13,7 @@ class SimAnneal(object):
         self.alpha = 0.995 if alpha == -1 else alpha
         self.stopping_temperature = 1e-8 if stopping_T == -1 else stopping_T
         self.stopping_iter = 100000 if stopping_iter == -1 else stopping_iter
-        self.iteration = 1
+        self.iteration = 0
 
         self.nodes = [i for i in range(self.N)]
 
@@ -88,10 +86,12 @@ class SimAnneal(object):
         """
         Execute simulated annealing algorithm.
         """
+        iteration_fitness = []
         # Initialize with the greedy solution.
         self.cur_solution, self.cur_fitness = self.initial_solution()
 
         print("Starting annealing.")
+
         while self.T >= self.stopping_temperature and self.iteration < self.stopping_iter:
             candidate = list(self.cur_solution)
             l = random.randint(2, self.N - 1)
@@ -99,14 +99,14 @@ class SimAnneal(object):
             candidate[i: (i + l)] = reversed(candidate[i: (i + l)])
             self.accept(candidate)
             self.T *= self.alpha
+            logging.info(f"# round {self.iteration} iteration  best fitness in this iteration {self.cur_fitness}")
+            iteration_fitness.append([self.iteration, self.cur_fitness])
             self.iteration += 1
-
-            self.fitness_list.append(self.cur_fitness)
 
         print("Best fitness obtained: ", self.best_fitness)
         improvement = 100 * (self.fitness_list[0] - self.best_fitness) / (self.fitness_list[0])
         print(f"Improvement over greedy heuristic: {improvement : .2f}%")
-        return self.best_solution, self.best_fitness
+        return self.best_solution, self.best_fitness, iteration_fitness
 
     def batch_anneal(self, times=10):
         """
@@ -119,17 +119,4 @@ class SimAnneal(object):
             self.cur_solution, self.cur_fitness = self.initial_solution()
             self.anneal()
 
-    def visualize_routes(self):
-        """
-        Visualize the TSP route with matplotlib.
-        """
-        plotTSP([self.best_solution], self.coords)
-
-    def plot_learning(self):
-        """
-        Plot the fitness through iterations.
-        """
-        plt.plot([i for i in range(len(self.fitness_list))], self.fitness_list)
-        plt.ylabel("Fitness")
-        plt.xlabel("Iteration")
-        plt.show()
+   
